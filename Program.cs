@@ -6,7 +6,7 @@ namespace advent2015
     {
         static void Main(string[] args)
         {
-            Year2015Day5.Ex2();
+            Year2015Day6.Ex2();
         }
     }
 }
