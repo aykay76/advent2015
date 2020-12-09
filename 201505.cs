@@ -63,10 +63,10 @@ class Year2015Day5
                 }
             }
 
-            for (int i = 0; i < line.Length; i++)
+            for (int i = 0; i < line.Length - 2; i++)
             {
                 c = line[i];
-                int j = line.IndexOf(c, i + 1);
+                int j = line.IndexOf(c, i + 2);
                 if (j == i + 2) 
                 {
                     rule2 = true;
